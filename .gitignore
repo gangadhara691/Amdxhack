@@ -166,6 +166,28 @@ wandb/
 # Data folders
 data/
 outputs/
+datasets/
+checkpoints/
+models/
+weights/
+
+# Large model/dataset artifacts
+*.ckpt
+*.pt
+*.pth
+*.safetensors
+*.onnx
+*.pb
+*.tfrecord
+*.h5
+*.npz
+*.npy
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.rar
 
 # Translations
 *.mo
