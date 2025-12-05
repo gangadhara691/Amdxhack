@@ -37,6 +37,8 @@ lerobot-replay \
   --dataset.episode=0
 ```
 
+Use `bi_so101_follower` in the example above to replay on a pair of SO-101 follower arms.
+
 """
 
 import logging
@@ -54,6 +56,7 @@ from lerobot.robots import (  # noqa: F401
     Robot,
     RobotConfig,
     bi_so100_follower,
+    bi_so101_follower,
     earthrover_mini_plus,
     hope_jr,
     koch_follower,

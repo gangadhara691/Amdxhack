@@ -49,6 +49,8 @@ lerobot-teleoperate \
   --display_data=true
 ```
 
+Swap `bi_so100_*` for `bi_so101_*` in the commands above to drive a pair of SO-101 arms instead.
+
 """
 
 import logging
@@ -71,6 +73,7 @@ from lerobot.robots import (  # noqa: F401
     Robot,
     RobotConfig,
     bi_so100_follower,
+    bi_so101_follower,
     earthrover_mini_plus,
     hope_jr,
     koch_follower,
@@ -82,6 +85,7 @@ from lerobot.teleoperators import (  # noqa: F401
     Teleoperator,
     TeleoperatorConfig,
     bi_so100_leader,
+    bi_so101_leader,
     gamepad,
     homunculus,
     keyboard,
